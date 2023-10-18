@@ -21,7 +21,7 @@ typedef struct convert conver_t;
 /*Main functions*/
 int parser(const char *format, conver_t f_list[], va_list arg_list);
 int _printf(const char *format, ...);
-int _write_char(char);
+int _type_char(char);
 int print_character(va_list);
 int print_str(va_list);
 int print_perc(va_list);
@@ -36,7 +36,7 @@ int print_x(va_list list);
 int print_X(va_list list);
 
 /*Helper functions*/
-unsigned int base_len(unsigned int, int);
+unsigned int base_length(unsigned int, int);
 char *rev_string(char *);
 void write_base(char *str);
 char *_memcpy(char *dest, char *src, unsigned int n);
