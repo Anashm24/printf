@@ -29,7 +29,7 @@ int print_int(va_list);
 int print_numb(va_list);
 int print_bi(va_list);
 int print_rev(va_list arg);
-int rot13(va_list);
+int rotation(va_list);
 int unsigned_int(va_list);
 int print_oct(va_list list);
 int print_x(va_list list);
