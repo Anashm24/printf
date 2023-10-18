@@ -33,7 +33,7 @@ int print_bi(va_list list)
 		number = number / 2;
 	}
 	str[k] = '\0';
-	rev_str = rev_string(str);
+	rev_str = reverse_string(str);
 	if (rev_str == NULL)
 		return (-1);
 	write_base(rev_str);
@@ -72,7 +72,7 @@ int print_oct(va_list list)
 
 	}
 	octal_rep[length] = '\0';
-	rev_str = rev_string(octal_rep);
+	rev_str = reverse_string(octal_rep);
 	if (rev_str == NULL)
 		return (-1);
 
@@ -118,7 +118,7 @@ int print_x(va_list list)
 		number = number / 16;
 	}
 	hex_rep[length] = '\0';
-	rev_hex = rev_string(hex_rep);
+	rev_hex = reverse_string(hex_rep);
 	if (rev_hex == NULL)
 		return (-1);
 	write_base(rev_hex);
@@ -164,7 +164,7 @@ int print_X(va_list list)
 		number = number / 16;
 	}
 	hex_rep[length] = '\0';
-	rev_hex = rev_string(hex_rep);
+	rev_hex = reverse_string(hex_rep);
 	if (rev_hex == NULL)
 		return (-1);
 	write_base(rev_hex);
