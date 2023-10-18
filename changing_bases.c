@@ -110,7 +110,7 @@ int print_x(va_list list)
 		rem_num = number % 16;
 		if (rem_num > 9)
 		{
-			rem_num = hex_check(rem_num, 'x');
+			rem_num = check_hexadecimal(rem_num, 'x');
 			hex_rep[length] = rem_num;
 		}
 		else
@@ -156,7 +156,7 @@ int print_X(va_list list)
 		rem_num = number % 16;
 		if (rem_num > 9)
 		{
-			rem_num = hex_check(rem_num, 'X');
+			rem_num = check_hexadecimal(rem_num, 'X');
 			hex_rep[length] = rem_num;
 		}
 		else
