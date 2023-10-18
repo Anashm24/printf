@@ -3,7 +3,8 @@
 int check_hexadecimal(int, char);
 
 /**
- * print_bin - Converts a number from base 10 to binary
+ * print_bin - Entry point
+ * Descrciption: Converts a number from base 10 to binary
  * @list: List of arguments passed to this function
  * Return: The length of the number printed
  */
@@ -43,7 +44,8 @@ int print_bi(va_list list)
 }
 
 /**
- * print_oct - Prints the numeric representation of a number in octal base
+ * print_oct - Entry point
+ * Description: Prints the numeric representation of a number in octal base
  * @list: List of all the arguments passed to the program
  * Return: Number of symbols printed to stdout
  */
@@ -83,7 +85,8 @@ int print_oct(va_list list)
 }
 
 /**
- * print_x - Prints a representation of a decimal number on base16 lowercase
+ * print_x - Entry point
+ * Description: Prints a representation of a decimal number on base16 lowercase
  * @list: List of the arguments passed to the function
  * Return: Number of characters printed
  */
@@ -129,7 +132,8 @@ int print_x(va_list list)
 
 
 /**
- * print_X - Prints a representation of a decimal number on base16 Uppercase
+ * print_X - Entry point
+ * Description: Prints a representation of a decimal number on base16 Uppercase
  * @list: List of the arguments passed to the function
  * Return: Number of characters printed
  */
@@ -174,7 +178,8 @@ int print_X(va_list list)
 }
 
 /**
- * check_hexadecimal - Checks which hex function is calling it
+ * check_hexadecimal - Entry point
+ * Description: Checks which hex function is calling it
  * @number: Number to convert into letter
  * @x: Tells which hex function is calling it
  * Return: Ascii value for a letter
