@@ -3,7 +3,7 @@
 int check_hexadecimal(int, char);
 
 /**
- * print_bin - Entry point
+ * print_bi - Entry point
  * Description: Converts a number from base 10 to binary
  * @list: List of arguments passed to this function
  * Return: The length of the number printed
